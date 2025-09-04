@@ -1,0 +1,37 @@
+{
+  "id": "stats",
+  "type": "SharedSlice",
+  "name": "Stats",
+  "description": "Stats section with intro and multiple stat items",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default stats slice",
+      "primary": {
+        "intro": {
+          "type": "Text",
+          "config": {
+            "label": "Intro text"
+          }
+        }
+      },
+      "items": {
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label (e.g., 250+ SO)"
+          }
+        },
+        "value": {
+          "type": "Text",
+          "config": {
+            "label": "Value"
+          }
+        }
+      }
+    }
+  ]
+}

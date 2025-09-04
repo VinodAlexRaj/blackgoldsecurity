@@ -1,0 +1,37 @@
+{
+  "id": "testimonials",
+  "type": "SharedSlice",
+  "name": "Testimonials",
+  "description": "Testimonials section with quotes, authors, and companies",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default testimonials slice",
+      "primary": {},
+      "items": {
+        "quote": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Quote",
+            "multi": "paragraph"
+          }
+        },
+        "author": {
+          "type": "Text",
+          "config": {
+            "label": "Author"
+          }
+        },
+        "company": {
+          "type": "Text",
+          "config": {
+            "label": "Company"
+          }
+        }
+      }
+    }
+  ]
+}

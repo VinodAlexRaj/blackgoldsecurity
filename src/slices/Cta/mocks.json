@@ -1,0 +1,22 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "heading": "Get Started Today",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Sign up now and boost your business with our services.",
+          "spans": []
+        }
+      ],
+      "button_label": "Contact Us",
+      "button_link": {
+        "link_type": "Web",
+        "url": "/contact"
+      }
+    },
+    "items": []
+  }
+]

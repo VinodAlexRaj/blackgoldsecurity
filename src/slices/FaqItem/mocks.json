@@ -1,0 +1,32 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "question": "What is your refund policy?",
+      "answer": [
+        {
+          "type": "paragraph",
+          "text": "You can request a refund within 30 days of purchase if you're not satisfied.",
+          "spans": []
+        }
+      ]
+    },
+    "items": []
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "question": "How do I contact support?",
+      "answer": [
+        {
+          "type": "paragraph",
+          "text": "You can reach us via email at support@blackgoldsecurity.my or call +60 12-345 6789.",
+          "spans": []
+        }
+      ]
+    },
+    "items": []
+  }
+]

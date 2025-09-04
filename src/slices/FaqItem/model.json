@@ -1,0 +1,27 @@
+{
+  "type": "Slice",
+  "name": "FAQ Item",
+  "description": "A single FAQ item with question and answer",
+  "variations": {
+    "default": {
+      "name": "Default",
+      "docURL": "",
+      "display": "Question + Answer",
+      "primary": {
+        "question": {
+          "type": "Text",
+          "config": { "label": "Question" }
+        },
+        "answer": {
+          "type": "RichText",
+          "config": {
+            "label": "Answer",
+            "multi": "paragraph, strong, em, hyperlink, list-item, o-list-item",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    }
+  }
+}

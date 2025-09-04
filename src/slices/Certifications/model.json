@@ -1,0 +1,36 @@
+{
+  "id": "certifications",
+  "type": "SharedSlice",
+  "name": "Certifications",
+  "description": "Certifications",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation for Certifications slice",
+      "primary": {},
+      "items": {
+        "name": {
+          "type": "Text",
+          "config": {
+            "label": "Certification Name"
+          }
+        },
+        "logo": {
+          "type": "Image",
+          "config": {
+            "label": "Certification Logo"
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Certification Link"
+          }
+        }
+      }
+    }
+  ]
+}

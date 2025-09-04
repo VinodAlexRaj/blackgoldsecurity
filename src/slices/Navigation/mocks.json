@@ -1,0 +1,12 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {},
+    "items": [
+      { "label": "Home", "link": { "url": "/" } },
+      { "label": "Services", "link": { "url": "/services" } },
+      { "label": "Contact", "link": { "url": "/contact" } }
+    ]
+  }
+]

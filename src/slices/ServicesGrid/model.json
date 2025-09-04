@@ -1,0 +1,43 @@
+{
+  "id": "services_grid",
+  "type": "SharedSlice",
+  "name": "ServicesGrid",
+  "description": "Grid of services with title, summary and link",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation for Services grid",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title"
+          }
+        },
+        "summary": {
+          "type": "Text",
+          "config": {
+            "label": "Summary"
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link"
+          }
+        }
+      }
+    }
+  ]
+}

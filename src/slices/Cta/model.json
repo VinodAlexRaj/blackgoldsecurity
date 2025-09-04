@@ -1,0 +1,38 @@
+{
+  "id": "cta",
+  "type": "SharedSlice",
+  "name": "Call To Action",
+  "description": "A reusable CTA slice with heading, description, and button",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "",
+      "version": "initial",
+      "description": "Default variation for CTA",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": { "label": "Heading" }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "multi": "paragraph, strong, em, hyperlink, list-item, o-list-item"
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": { "label": "Button Label" }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": { "label": "Button Link" }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/placeholder.png?auto=compress,format"
+    }
+  ]
+}

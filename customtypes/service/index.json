@@ -1,0 +1,55 @@
+{
+  "format": "page",
+  "id": "service",
+  "label": "Service",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "UID" } },
+      "title": { "type": "Text", "config": { "label": "Service Name" } },
+      "slice_zone": {
+        "type": "Slices",
+        "config": {
+          "fieldset": "Service Sections",
+          "choices": {
+            "service_details": {
+              "type": "Slice",
+              "fieldset": "Service Details",
+              "icon": "settings",
+              "variations": {
+                "default": {
+                  "primary": {
+                    "summary": { "type": "Text", "config": { "label": "Short Summary" } },
+                    "detailed_description": {
+                      "type": "RichText",
+                      "config": {
+                        "label": "Detailed Description",
+                        "multi": "paragraph, strong, em, hyperlink, list-item, o-list-item",
+                        "allowTargetBlank": true
+                      }
+                    }
+                  },
+                  "items": {
+                    "type": "Group",
+                    "config": {
+                      "label": "Industries Served",
+                      "fields": {
+                        "industry": { "type": "Text", "config": { "label": "Industry Name" } }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": { "type": "Text", "config": { "label": "Meta Title" } },
+      "meta_description": { "type": "Text", "config": { "label": "Meta Description" } },
+      "meta_image": { "type": "Image", "config": { "label": "Meta Image", "constraint": { "width": 2400, "height": 1260 }, "thumbnails": [] } }
+    }
+  }
+}

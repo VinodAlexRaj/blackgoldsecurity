@@ -1,0 +1,30 @@
+{
+  "id": "blog_overview",
+  "type": "SharedSlice",
+  "name": "BlogOverview",
+  "description": "BlogOverview",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default variation for BlogOverview slice",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "number_to_show": {
+          "type": "Number",
+          "config": {
+            "label": "Number of posts to show"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

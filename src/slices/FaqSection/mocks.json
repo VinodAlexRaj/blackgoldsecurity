@@ -1,0 +1,37 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"faq_reference": {
+				"key": "817f8273-a859-4c7b-842c-278c84b8ee16",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"answer",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Dolor sit veniam irure ex. Nulla sit adipisicing eu officia sint ad ut non reprehenderit esse elit."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,30 @@
+{
+  "id": "navigation",
+  "type": "SharedSlice",
+  "name": "Navigation",
+  "description": "Header navigation menu with links",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "",
+      "version": "initial",
+      "description": "Default navigation slice",
+      "primary": {},
+      "items": {
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Link Label"
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link URL"
+          }
+        }
+      }
+    }
+  ]
+}
